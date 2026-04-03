@@ -8,7 +8,11 @@ new_tup = tuple(a)
 print(new_tup)
 concatenated_tuple = my_tuple + new_tup
 print(concatenated_tuple)
-print(concatenated_tuple[2:6:2])
-print(concatenated_tuple[::-1])
-del my_tuple
-print(my_tuple)
+n= concatenated_tuple[2:7:4]
+print(n[::-1])
+print(concatenated_tuple[6:1:-4])
+print(concatenated_tuple[::-4])
+#print(concatenated_tuple[2:6:2])
+#print(concatenated_tuple[::-1])
+#del my_tuple
+#print(my_tuple)
